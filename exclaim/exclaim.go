@@ -1,8 +1,9 @@
 package exclaim
 
-import "strings"
+
+import "scream"
 
 // Exclaim yells your message louder
 func Exclaim(message string) string {
-	return strings.ToUpper(message) + "!!!"
+	return scream.Scream(message)
 }
