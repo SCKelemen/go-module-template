@@ -9,6 +9,8 @@ import (
 
 func main() {
     fmt.Println("Sanity Check")
-    yell.Yell("Sanity Check")
-    exclaim.Exclaim("Sanity Check")
+    y := yell.Yell("Sanity Check")
+    e := exclaim.Exclaim("Sanity Check")
+    fmt.Println(y)
+    fmt.Println(e)
 }
