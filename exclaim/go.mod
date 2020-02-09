@@ -6,4 +6,4 @@ require (
   scream v0.0.0
 )
 
-replace scream v0.0.0 => ./scream
+replace scream v0.0.0 => ./../scream
