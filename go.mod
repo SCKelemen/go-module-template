@@ -1,6 +1,6 @@
 module github.com/SCKelemen/modules
 
-go 1.13
+go 1.14
 
 require (
 	exclaim v0.0.0

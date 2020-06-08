@@ -1,6 +1,6 @@
 module github.com/SCKelemen/modules/exclaim
 
-go 1.13
+go 1.14
 
 require (
   scream v0.0.0
